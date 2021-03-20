@@ -41,9 +41,9 @@ Django is a heavyweight/battries included web framework.  In order to follow thi
 
 then navigate to `http://127.0.0.1:8000/`.  You can follow the tutorial from
 here.   Once you are finished working remember to deactivate the virtual
-environment. 
+environment.
 
-NOTE: If you read the tutorial like you'll see the command 
+NOTE: If you read the tutorial like you'll see the command
 
     % django-admin startproject mysite
 
@@ -55,11 +55,16 @@ completely new then you'll need to run that command.
 Pyramid is another web-framework that occupies something of a middle ground
 between Flask nad Django in terms of what it provides out of the box.  In order
 to follow this
-[tutorial](https://docs.djangoproject.com/en/3.1/intro/tutorial01/) do these
-things first in the `pyramid` directory:
+[tutorial](https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/firstapp.html)
+do these things first in the `pyramid` directory:
 
 
     % python3 -m venv .venv --prompt=test-pyramid
     % .venv/bin/activate
     (test-pyramid) % python3 -m pip install pyramid
+    (test-pyramid) % python hello-pyramid.py
 
+this will not pring anything in the console but you can navigate to then
+navigate to `http://127.0.0.1:6543/` or `http://localhost:6453` to see the
+output.  You can follow the tutorial from here.   Once you are finished working
+remember to deactivate the virtual environment.
